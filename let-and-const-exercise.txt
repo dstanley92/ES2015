@@ -1,0 +1,10 @@
+const PI = 3.14;
+PI = 42; //Error
+
+The difference between var and let is...You can reassign and redeclare with var, but you can't redeclare with let.  You can access a hoisted variable with var.  Let has block scope.
+
+The difference between var and const is...You can reassign and redeclare with var, but you can't do either with const.  You can access a hoisted variable with var.  Const has block scope.
+
+The difference between let and const is...You can reassign with let, but not with const.
+
+Hoisting is...Variables are hoisted to the top of the scope they are declared in.  With var, you can access the variable name and it's undefined value before it is used later on.  Function declarations are also hoisted.
